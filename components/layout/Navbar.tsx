@@ -15,51 +15,50 @@ const Navbar = () => {
     <nav className="p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center w-[60%]">
           <Image
             src="/images/Logo.png"
             width={95}
             height={45}
             alt="Picture of the author"
           />
-        </div>
-
-        {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center w-[50%]">
-          <ul className="flex space-x-8 ml-5 justify-evenly w-full">
-            <li>
-              <a
-                href="#"
-                className="text-[#ECEDEE] hover:text-purple-500 transition-colors"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#4C5155] hover:text-purple-500 transition-colors"
-              >
-                SecrtChat
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#4C5155] hover:text-purple-500 transition-colors"
-              >
-                GenPen
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#4C5155] hover:text-purple-500 transition-colors"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+          {/* Desktop Menu */}
+          <div className="hidden lg:flex mt-2 items-center justify-evenly w-[80%]">
+            <ul className="flex space-x-8 ml-5 justify-evenly w-full">
+              <li>
+                <a
+                  href="#"
+                  className="text-[#ECEDEE] hover:text-purple-500 transition-colors"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-[#4C5155] hover:text-purple-500 transition-colors"
+                >
+                  SecrtChat
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-[#4C5155] hover:text-purple-500 transition-colors"
+                >
+                  GenPen
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-[#4C5155] hover:text-purple-500 transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <Button className="hidden lg:block">Dashboard</Button>
