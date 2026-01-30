@@ -10,9 +10,8 @@ const CTA = () => {
           <p className="mb-8 text-lg">
             Join thousands of companies transforming their business today
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button>Start Free Trial</Button>
-          </div>
+
+          <Button>Start Free Trial</Button>
         </div>
       </div>
     </section>

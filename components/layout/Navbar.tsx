@@ -62,10 +62,8 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Desktop Button */}
         <Button className="hidden lg:block">Dashboard</Button>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
           className="lg:hidden text-white p-2 hover:bg-zinc-800 rounded-lg transition-colors"
@@ -77,7 +75,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden mt-4 pb-4">
+        <div className="lg:hidden my-4 pb-4 ">
           <ul className="flex flex-col space-y-4">
             <li>
               <a
