@@ -11,7 +11,7 @@ const CTA = () => {
             Join thousands of companies transforming their business today
           </p>
 
-          <Button>Start Free Trials</Button>
+          <Button>Start Free Trial</Button>
         </div>
       </div>
     </section>
